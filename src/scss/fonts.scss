@@ -29,6 +29,11 @@
 @mixin text-headline-h2 {
   @include text-headline(48px);
 }
+
+@mixin text-headline-h3 {
+  @include text-headline(40px);
+}
+
 @mixin text-headline-card {
   @include text-body(20px, 700);
 }
